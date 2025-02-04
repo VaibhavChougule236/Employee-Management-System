@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" 
+th:replace="Employee/base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>Dashboard</title>
+</head>
+<body>
+<section>
+	<h1>Dashboard</h1>
+	<h1 th:text="${user.name}"></h1>
+	</section>
+</body>
+</html>
